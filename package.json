@@ -1,0 +1,19 @@
+{
+  "name": "team-zyvora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Team Zyvora all-in-one website and Discord bot starter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
